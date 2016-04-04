@@ -22,12 +22,13 @@ module.exports = {
     },
 
     treeForPublic: function(tree) {
-        this.ui.writeLine('Including external files!');
+        this.ui.writeLine('Including tinymce assets');
         var tree = pickFiles('bower_components/tinymce/', {
           srcDir: '/',
           files: ['**/*.min.js', '**/*.min.css', '**/*.woff', '**/*.ttf'],
           destDir: '/tinymce'
         });
+        this.ui.writeLine('...done');
         return this._super.treeForPublic.call(this, tree);
     },
 
