@@ -1,26 +1,11 @@
-# Ember-cli-tinymce
+# ember-cli-tinymce
 
-This README outlines the details of collaborating on this Ember addon.
+TinyMCE addon, implemented from https://gist.github.com/neciu/6bfeab3e3ae38638d8fb
 
 ## Installation
 
-* `git clone` this repository
-* `npm install`
-* `bower install`
+* `ember install https://github.com/Ekidna/ember-cli-tinymce.git`
 
-## Running
+## Usage
 
-* `ember server`
-* Visit your app at http://localhost:4200.
-
-## Running Tests
-
-* `npm test` (Runs `ember try:testall` to test your addon against multiple Ember versions)
-* `ember test`
-* `ember test --server`
-
-## Building
-
-* `ember build`
-
-For more information on using ember-cli, visit [http://www.ember-cli.com/](http://www.ember-cli.com/).
+* `{{ember-cli-tinymce value=value}}`
